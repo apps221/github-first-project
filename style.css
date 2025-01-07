@@ -70,3 +70,25 @@ h2 {
     text-align: center;
     margin-bottom: 24px;
 }
+.section__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about__img--wrapper {
+    width: 40%; /*size of image- 40% than original size*/
+    padding: 0 24px;
+}
+img {
+    width: 100%; /*take up 100% of figure*/
+}
+.section__description--wrapper {
+    width: 60%;
+    padding: 0 24px;
+}
+.section__description--para {
+font-size: 20px;
+line-height: 1.5;
+margin-bottom: 24px;
+}
+/*13:59*/
