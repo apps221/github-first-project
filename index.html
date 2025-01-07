@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <section>
         <nav>
-            <img src="./assetts/FES.svg" alt="">
+            <img src="./assetts/FES.svg" class=
+            "logo" alt="">
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#discord">Discord</a></li>
@@ -16,20 +18,63 @@
             </ul>
         </nav>
         <header>
+            <div class="row">
             <div>
                 <h1>Welcome</h1>
-                <p>Front end simiplified...</p>
+                <p class="subheader">Front end simiplified...</p>
                 <button>Start</button>
             </div>
             <figure>
-                <img src="/assetts/laptop.png" alt="Laptop home image">
+                <img src="./assetts/laptop.png" alt="Laptop home image">
             </figure>
+            </div>
         </header>
     </section>
-</body>
 <main>
-    <section id="about"></section>
+    <section id="about">
+        <h2>About</h2>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quisquam quam qui, expedita aut quis vero nihil laboriosam amet omnis debitis labore doloremque iure atque, sint magni eum? Dolor, sapiente!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, natus facilis laborum earum sapiente doloremque fugiat. Eum corporis commodi totam explicabo nihil laboriosam illum? Saepe vero debitis repellat maiores nemo!
+            </p>
+        </div>
+        <figure>
+            <img src="/assetts/about.jpg">
+        </figure>
+    </section>
     <section id="discord"></section>
-    <section id="contact"></section>
+    <h2>Discord</h2>
+    <figure>
+        <img src="/assetts/discord.png">
+    </figure>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, debitis? Autem unde perferendis aliquam corporis, ipsam tempora, laborum voluptatibus voluptatem enim minus fugit a quisquam sed nemo iure facere reiciendis!
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. In magni velit non? Similique obcaecati aspernatur iste quaerat fugiat voluptas, odio laudantium quis alias doloremque rerum voluptate nihil, nemo asperiores modi?
+        </p>
+    </div>
+    <section id="contact">
+    <h2>Contact</h2>
+    <form action="">
+        <label>Email</label>
+        <input type="text" placeholder="jane@example.com">
+        <label>Message</label>
+        <textarea  type="text" placeholder="Type message here"></textarea>
+    </form>
+    </section>
 </main>
+<footer>
+    <img src="./assetts/FES.svg">
+    <div>
+        <a href="#about">About</a>
+        <a href="#discord">Discord</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <p>Copyright</p>
+</footer>
+</body>
 </html>
